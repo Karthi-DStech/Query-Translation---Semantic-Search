@@ -19,11 +19,11 @@ Query translation techniques enhance semantic search by transforming user querie
 
 `models/`: This directory contains the implementation of different retrieval methods:
 
-  `multi_query.py`: Contains the MultiQueryRetrieval class, which implements a multi-query retrieval method. This method generates multiple versions of the query to improve retrieval     accuracy.
+  - `multi_query.py`: Contains the MultiQueryRetrieval class, which implements a multi-query retrieval method. This method generates multiple versions of the query to improve retrieval     accuracy.
 
-  `fusion_rrf.py`: Contains the FusionRetrieval class, which implements a fusion-based retrieval method. This method combines results from multiple queries to enhance the search results.
+  - `fusion_rrf.py`: Contains the FusionRetrieval class, which implements a fusion-based retrieval method. This method combines results from multiple queries to enhance the search results.
 
-  `decomposition_ltm.py`: Contains the DecompositionRetrieval class, which implements a decomposition-based retrieval method. This method breaks down complex queries into simpler sub-queries to improve the retrieval process.
+  - `decomposition_ltm.py`: Contains the DecompositionRetrieval class, which implements a decomposition-based retrieval method. This method breaks down complex queries into simpler sub-queries to improve the retrieval process.
 
 
 ## Requirements
