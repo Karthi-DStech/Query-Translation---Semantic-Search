@@ -6,7 +6,8 @@ from langchain.load import dumps, loads
 
 class MultiQueryRetrieval:
     """
-    The MultiQueryRetrieval class retrieves documents using multi-query perspectives and generates an answer based on the retrieved documents.
+    This class retrieves documents using multi-query perspectives and 
+    generates an answer based on the retrieved documents.
 
     Parameters
     ----------
