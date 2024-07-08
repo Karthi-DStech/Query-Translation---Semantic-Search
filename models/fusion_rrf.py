@@ -8,7 +8,8 @@ from langchain.load import dumps, loads
 
 class FusionRetrieval:
     """
-    The FusionRetrieval class retrieves documents using RAG Fusion queries and generates an answer based on the retrieved documents.
+    This class retrieves documents using RAG Fusion queries and
+    generates an answer based on the retrieved documents.
 
     Parameters
     ----------
