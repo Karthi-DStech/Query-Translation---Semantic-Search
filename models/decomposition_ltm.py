@@ -5,7 +5,8 @@ from langchain_openai import ChatOpenAI
 
 class DecompositionRetrieval:
     """
-    DecompositionRetrieval class retrieves documents using RAG Decomposition queries and generates an answer based on the retrieved documents.
+    This class retrieves documents using RAG Decomposition queries and 
+    generates an answer based on the retrieved documents.
 
     Parameters
     ----------
